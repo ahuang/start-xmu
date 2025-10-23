@@ -1,9 +1,15 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import XmuDemo from '../views/xmu/DemoIndex.vue'
 
 const routes: Array<RouteRecordRaw> = [
-  {
+    {
     path: '/',
+    name: 'xmu',
+    component: XmuDemo
+  },
+  {
+    path: '/home',
     name: 'home',
     component: HomeView
   },
