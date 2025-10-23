@@ -1,6 +1,7 @@
 <script lang='ts' setup>
 import VantButton from './components/VantButton.vue';
 import XmuHello from './components/XmuHello.vue';
+import DemoMultipleCascader from './components/DemoMultipleCascader.vue';
 </script>
 <template>
     <h1>Demo</h1>
@@ -11,6 +12,10 @@ import XmuHello from './components/XmuHello.vue';
     <div class="demo-box">
         <div>下面是 Xf-Mobile-UI 示例：</div>
         <XmuHello />
+    </div>
+    <div class="demo-box">
+        <div>下面是 MultipleCascader 示例：</div>
+        <DemoMultipleCascader />
     </div>
 </template>
 <style scoped lang='scss'>
