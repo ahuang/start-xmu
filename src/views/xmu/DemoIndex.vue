@@ -1,10 +1,15 @@
 <script lang='ts' setup>
 import VantButton from './components/VantButton.vue';
 import XmuHello from './components/XmuHello.vue';
+import XmuVersion from './components/XmuVersion.vue';
 import DemoMultipleCascader from './components/DemoMultipleCascader.vue';
 </script>
 <template>
     <h1>Demo</h1>
+    <div class="demo-box">
+        <div>下面是版本信息：</div>
+        <XmuVersion />
+    </div>
     <div class="demo-box">
         <div>下面是 Vant 示例：</div>
         <VantButton />
